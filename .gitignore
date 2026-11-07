@@ -1,0 +1,74 @@
+/src/generated/prisma
+
+# =================================
+# Dependencies
+# =================================
+node_modules/
+
+# =================================
+# Environment variables and secrets
+# =================================
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# =================================
+# Compiled TypeScript output
+# =================================
+dist/
+build/
+*.tsbuildinfo
+
+# =================================
+# Uploaded files
+# =================================
+uploads/*
+!uploads/.gitkeep
+
+# =================================
+# Logs
+# =================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =================================
+# Testing and coverage
+# =================================
+coverage/
+.nyc_output/
+
+# =================================
+# Temporary files and caches
+# =================================
+.tmp/
+.temp/
+.cache/
+
+# =================================
+# Operating system files
+# =================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =================================
+# IDE files
+# =================================
+.idea/
+
+# =================================
+# Local database files
+# =================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
